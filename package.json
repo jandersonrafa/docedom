@@ -18,8 +18,8 @@
   },
   "homepage": "https://github.com/preboot/angularjs-webpack",
   "dependencies": {
-    "angular": "^1.5.0",
-    "angular-ui-router": "^0.4.3"
+    "angular": "^1.6.6",
+    "angular-ui-router": "^1.0.3"
   },
   "devDependencies": {
     "autoprefixer": "^6.0.3",
@@ -29,6 +29,7 @@
     "bootstrap": "^4.0.0-beta",
     "copy-webpack-plugin": "4.0.1",
     "css-loader": "0.26.1",
+    "font-awesome": "4.7.0",
     "extract-text-webpack-plugin": "2.0.0-beta.5",
     "file-loader": "^0.9.0",
     "html-webpack-plugin": "^2.7.1",
