@@ -24,4 +24,8 @@ export default function routing($stateProvider, $urlRouterProvider) {
         url: '/home',
         template: '<home></home>',
     })
+    $stateProvider.state('teste', {
+        url: '/teste',
+        template: '<teste></teste>',
+    })
 }
