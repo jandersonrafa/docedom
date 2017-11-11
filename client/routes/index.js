@@ -20,9 +20,20 @@ routing.$inject = ['$stateProvider', '$urlRouterProvider'];
 export default function routing($stateProvider, $urlRouterProvider) {
     $urlRouterProvider.otherwise('/home');
 
-    $stateProvider.state('home', {
+    $stateProvider
+        .state('secured', {
+            url: '',
+            abstract: true,
+            template: '<app-base-secured>',
+        })
+
+    $stateProvider.state('secured.home', {
         url: '/home',
-        template: '<home></home>',
+        views: {
+			[`content@${'secured'}`]: {
+				template: '<home></home>',
+			},
+		},
     })
     $stateProvider.state('teste', {
         url: '/teste',
