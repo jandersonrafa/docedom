@@ -14,8 +14,9 @@ import uirouter from 'angular-ui-router';
 
 import routes from './routes';
 import components from './components';
+import directives from './directives';
 import 'bootstrap/dist/css/bootstrap.css'
 // angular.module('app', [index]);
 
-angular.module('app', [uirouter, components])
+angular.module('app', [uirouter, components, directives])
   .config(routes);

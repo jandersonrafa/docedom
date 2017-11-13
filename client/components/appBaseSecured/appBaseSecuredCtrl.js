@@ -4,6 +4,7 @@ import soroushKarimi from './assets/img/soroush-karimi.jpg'
 import federicoBeccari from './assets/img/federico-beccari.jpg'
 import joshuaStannard from './assets/img/joshua-stannard.jpg'
 import brigadeiro from './assets/img/brigadeiro.jpg'
+import clouds from './assets/img/clouds.png'
 
 export default class AppBaseSecuredCtrl {
 	constructor() {
@@ -31,7 +32,10 @@ export default class AppBaseSecuredCtrl {
 	}
 
 	getBackgroundImageBrigadeiro() {
-		console.log("teste")
-		return "{ 'background-image': " + brigadeiro + " }"
+		return brigadeiro
+	}
+
+	getClouds() {
+		return clouds
 	}
 }

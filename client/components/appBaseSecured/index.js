@@ -1,4 +1,5 @@
 import angular from 'angular'
+
 import component from './appBaseSecuredComponent'
 
 import './assets/js/paper-kit.js'
